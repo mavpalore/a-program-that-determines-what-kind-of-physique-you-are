@@ -1,32 +1,531 @@
-# Prerequisites
-*.d
+#include <iostream>
+int main() {
+	int gender{};
+	std::cout << "What gender are you?\nif you are girl, write 0\nif you are man, write 1\n";
+	std::cin >> gender ; std::cout << "\n";
+	if (gender == 1) {
+		int height{};
+		std::cout << "enter your height\n";
+		std::cin >> height;
+		if (height >= 165 && height <= 170) {
+			int age{};
+			std::cout << "enter your age\n";
+			std::cin >> age;
+			float weight = 0;
+			if (age >= 0 && age <= 6) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 5 && weight <= 20) {
+					std::cout << "\nrespect you, true mini jimbro!";
+				}
+				else if (weight <= 5) {
+					std::cout << "\nskinny mini bitch";
+				}
+				else {
+					std::cout << "\nfucking mini scuff";
+				}
+			}
+			else if (age >= 7 && age <= 11) {
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 30 && weight <= 50) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 30) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 12 && age <= 15) {
 
-# Precompiled Headers
-*.gch
-*.pch
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 50 && weight <= 70) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 50) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 16 && age <= 22) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 70 && weight <= 80) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 70) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 23) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 60 && weight <= 90) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 59) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+		}
+		else if (height >= 171 && height <= 180) {
+			int age{};
+			std::cout << "enter your age\n";
+			std::cin >> age;
+			float weight = 0;
+			if (age >= 0 && age <= 6) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 5 && weight <= 20) {
+					std::cout << "\nrespect you, true mini jimbro!";
+				}
+				else if (weight <= 5) {
+					std::cout << "\nskinny mini bitch";
+				}
+				else {
+					std::cout << "\nfucking mini scuff";
+				}
+			}
+			else if (age >= 7 && age <= 11) {
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 30 && weight <= 50) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 30) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 12 && age <= 15) {
 
-# Fortran module files
-*.mod
-*.smod
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 50 && weight <= 70) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 50) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 16 && age <= 22) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 70 && weight <= 80) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 70) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 23) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 70 && weight <= 90) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 70) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+		}
+		else if (height >= 181) {
+			int age{};
+			std::cout << "enter your age\n";
+			std::cin >> age;
+			float weight = 0;
+			if (age >= 0 && age <= 6) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 5 && weight <= 20) {
+					std::cout << "\nrespect you, true mini jimbro!";
+				}
+				else if (weight <= 5) {
+					std::cout << "\nskinny mini bitch";
+				}
+				else {
+					std::cout << "\nfucking mini scuff";
+				}
+			}
+			else if (age >= 7 && age <= 11) {
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 30 && weight <= 50) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 30) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 12 && age <= 15) {
 
-# Executables
-*.exe
-*.out
-*.app
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 65 && weight <= 80) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 65) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 16 && age <= 22) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 75 && weight <= 90) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 74) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 23) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 75 && weight <= 100) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 74) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+		}
+	}
+	else if (gender == 0) {
+		int height{};
+		std::cout << "enter your height\n";
+		std::cin >> height;
+		if (height >= 165 && height <= 170) {
+			int age{};
+			std::cout << "enter your age\n";
+			std::cin >> age;
+			float weight = 0;
+			if (age >= 0 && age <= 6) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 5 && weight <= 20) {
+					std::cout << "\nrespect you, true mini jimbro!";
+				}
+				else if (weight <= 5) {
+					std::cout << "\nskinny mini bitch";
+				}
+				else {
+					std::cout << "\nfucking mini scuff";
+				}
+			}
+			else if (age >= 7 && age <= 11) {
+
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 30 && weight <= 50) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 30) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 12 && age <= 15) {
+
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 50 && weight <= 70) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 50) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 16 && age <= 22) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 70 && weight <= 80) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 70) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 23) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 60 && weight <= 90) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 59) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+		}
+		else if (height >= 171 && height <= 180) {
+			int age{};
+			std::cout << "enter your age\n";
+			std::cin >> age;
+			float weight = 0;
+			if (age >= 0 && age <= 6) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 5 && weight <= 20) {
+					std::cout << "\nrespect you, true mini jimbro!";
+				}
+				else if (weight <= 5) {
+					std::cout << "\nskinny mini bitch";
+				}
+				else {
+					std::cout << "\nfucking mini scuff";
+				}
+			}
+			else if (age >= 7 && age <= 11) {
+
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 30 && weight <= 40 ) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 30) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 12 && age <= 15) {
+
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 41 && weight <= 49) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 40) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 16 && age <= 22) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 50 && weight <= 60) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 49) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 23) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 50 && weight <= 70) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 49) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+		}
+		else if (height >= 181) {
+			int age{};
+			std::cout << "enter your age\n";
+			std::cin >> age;
+			float weight = 0;
+			if (age >= 0 && age <= 6) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 5 && weight <= 20) {
+					std::cout << "\nrespect you, true mini jimbro!";
+				}
+				else if (weight <= 5) {
+					std::cout << "\nskinny mini bitch";
+				}
+				else {
+					std::cout << "\nfucking mini scuff";
+				}
+			}
+			else if (age >= 7 && age <= 11) {
+
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 30 && weight <= 50) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 30) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 12 && age <= 15) {
+
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 50 && weight <= 70) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 50) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 16 && age <= 22) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 70 && weight <= 80) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 70) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			else if (age >= 23) {
+				std::cout << "enter your weight ";
+				std::cin >> weight;
+				if (weight >= 60 && weight <= 90) {
+					std::cout << "\nrespect you, true jimbro!";
+				}
+				else if (weight <= 59) {
+					std::cout << "\nskinny bitch";
+				}
+				else {
+					std::cout << "\nfucking scuff";
+				}
+			}
+			}
+		else if (height >= 171 && height <= 180) {
+				int age{};
+				std::cout << "enter your age\n";
+				std::cin >> age;
+				float weight = 0;
+				if (age >= 0 && age <= 6) {
+					std::cout << "enter your weight ";
+					std::cin >> weight;
+					if (weight >= 5 && weight <= 20) {
+						std::cout << "\nrespect you, true mini jimbro!";
+					}
+					else if (weight <= 5) {
+						std::cout << "\nskinny mini bitch";
+					}
+					else {
+						std::cout << "\nfucking mini scuff";
+					}
+				}
+				else if (age >= 7 && age <= 11) {
+
+					std::cout << "enter your weight ";
+					std::cin >> weight;
+					if (weight >= 30 && weight <= 40) {
+						std::cout << "\nrespect you, true jimbro!";
+					}
+					else if (weight <= 30) {
+						std::cout << "\nskinny bitch";
+					}
+					else {
+						std::cout << "\nfucking scuff";
+					}
+				}
+				else if (age >= 12 && age <= 15) {
+
+					std::cout << "enter your weight ";
+					std::cin >> weight;
+					if (weight >= 41 && weight <= 49) {
+						std::cout << "\nrespect you, true jimbro!";
+					}
+					else if (weight <= 40) {
+						std::cout << "\nskinny bitch";
+					}
+					else {
+						std::cout << "\nfucking scuff";
+					}
+				}
+				else if (age >= 16 && age <= 22) {
+					std::cout << "enter your weight ";
+					std::cin >> weight;
+					if (weight >= 50 && weight <= 60) {
+						std::cout << "\nrespect you, true jimbro!";
+					}
+					else if (weight <= 49) {
+						std::cout << "\nskinny bitch";
+					}
+					else {
+						std::cout << "\nfucking scuff";
+					}
+				}
+				else if (age >= 23) {
+					std::cout << "enter your weight ";
+					std::cin >> weight;
+					if (weight >= 50 && weight <= 70) {
+						std::cout << "\nrespect you, true jimbro!";
+					}
+					else if (weight <= 49) {
+						std::cout << "\nskinny bitch";
+					}
+					else {
+						std::cout << "\nfucking scuff";
+					}
+				}
+		}
+	}
+	else {
+		std::cout << "there are only two genders";
+	}
+		return 0;
+}
